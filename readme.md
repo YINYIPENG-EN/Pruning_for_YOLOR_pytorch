@@ -218,3 +218,10 @@ RuntimeError: Expected all tensors to be on the same device, but found at least 
 > ```
 
 在训练完需要推理测试的时候需要把上面的再改回去(不是不能检测，只是会特别的不准)
+
+百度云权重：
+
+链接：https://pan.baidu.com/s/1uQflOXCQtffkD5kHAAF94A 
+提取码：yypn
+
+CSDN详细说明：https://blog.csdn.net/z240626191s/article/details/126902178
