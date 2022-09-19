@@ -1,0 +1,14 @@
+2022-09-19 11:01:55.552 | INFO     | __main__:Conv_pruning:35 - 
+-------------
+[ <DEP: prune_conv => prune_conv on module_list.22.Conv2d (Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False))>, Index=[1, 5, 8, 10, 11, 12, 13, 14, 15, 18, 20, 21, 22, 23, 25, 28, 32, 38, 40, 44, 52, 54, 55, 57, 58, 59, 61, 63, 64, 66, 72, 73, 77, 82, 84, 86, 88, 96, 97, 98, 99, 101, 102, 103, 109, 113, 114, 120, 123, 126, 127], NumPruned=6528]
+[ <DEP: prune_conv => prune_batchnorm on module_list.22.BatchNorm2d (BatchNorm2d(128, eps=0.0001, momentum=0.03, affine=True, track_running_stats=True))>, Index=[1, 5, 8, 10, 11, 12, 13, 14, 15, 18, 20, 21, 22, 23, 25, 28, 32, 38, 40, 44, 52, 54, 55, 57, 58, 59, 61, 63, 64, 66, 72, 73, 77, 82, 84, 86, 88, 96, 97, 98, 99, 101, 102, 103, 109, 113, 114, 120, 123, 126, 127], NumPruned=102]
+[ <DEP: prune_batchnorm => _prune_elementwise_op on _ElementWiseOp()>, Index=[1, 5, 8, 10, 11, 12, 13, 14, 15, 18, 20, 21, 22, 23, 25, 28, 32, 38, 40, 44, 52, 54, 55, 57, 58, 59, 61, 63, 64, 66, 72, 73, 77, 82, 84, 86, 88, 96, 97, 98, 99, 101, 102, 103, 109, 113, 114, 120, 123, 126, 127], NumPruned=0]
+[ <DEP: _prune_elementwise_op => _prune_elementwise_op on _ElementWiseOp()>, Index=[1, 5, 8, 10, 11, 12, 13, 14, 15, 18, 20, 21, 22, 23, 25, 28, 32, 38, 40, 44, 52, 54, 55, 57, 58, 59, 61, 63, 64, 66, 72, 73, 77, 82, 84, 86, 88, 96, 97, 98, 99, 101, 102, 103, 109, 113, 114, 120, 123, 126, 127], NumPruned=0]
+[ <DEP: _prune_elementwise_op => prune_related_conv on module_list.23.Conv2d (Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False))>, Index=[1, 5, 8, 10, 11, 12, 13, 14, 15, 18, 20, 21, 22, 23, 25, 28, 32, 38, 40, 44, 52, 54, 55, 57, 58, 59, 61, 63, 64, 66, 72, 73, 77, 82, 84, 86, 88, 96, 97, 98, 99, 101, 102, 103, 109, 113, 114, 120, 123, 126, 127], NumPruned=58752]
+65382 parameters will be pruned
+-------------
+
+2022-09-19 11:01:55.563 | INFO     | __main__:Conv_pruning:42 -   Params: 52497868 => 52432486
+
+2022-09-19 11:01:56.361 | INFO     | __main__:Conv_pruning:55 - ºÙ÷¶ÕÍ≥…
+
